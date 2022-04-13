@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500&display=swap');
+
+body{
+    background-color: #1B262C;
+}
+
+body > .circle{
+    display: flex;
+    background-color: #0F4C75;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    width: 400px;
+    color: #BBE1FA;
+    font-size: 80px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 5px #BBE1FA;
+    background-color: #BBE1FA;
+    transition: ease-in-out 0.4s;
+}
+
+button:active{
+    width: 55px;
+    height: 55px;
+}
+
+button:hover{
+    background-color: #88cfff;
+    border: solid 5px #88cfff;
+    cursor: pointer;
+}
+
+img{
+    padding-top: 2px;
+}
+
+h4{
+    position: absolute;
+    bottom: 0;
+    color: #BBE1FA;
+    margin: auto;
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: center;
+    width: 99%;
+}
+
+a{
+    color: #BBE1FA;
+    font-family: 'Vazirmatn', sans-serif;
+}
